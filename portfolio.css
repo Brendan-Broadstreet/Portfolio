@@ -1,0 +1,69 @@
+/* portfolio.css */
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1570257374937-1d2db29c7f12?ixlib=rb-1.2.1&auto=format&fit=crop&w=2622&q=80");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conExtra{
+    margin-bottom: 10rem;
+}
+.card {
+    box-shadow: 0px 5px 5px rgb(0,0,0);  
+}
+
+
+#twoWide {
+    
+    margin-top: 3rem;
+}
+#twoWide1 {
+    margin: 2%;
+    padding: 5%;
+    box-shadow: 1px 5px 5px rgb(0,0,0);  
+}
+
+#twoWide2 {
+    border-top: 1px black;
+    margin: 2%;
+    padding: 5%;
+    box-shadow: 1px 5px 5px rgb(0,0,0);  
+}
+p {
+    color: lavender;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100; 
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#mainNavbar .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+    font-style: strong;
+}
+.navbar.scrolled {
+    background-color: rgb(4,129,114);
+    transition: background 1000ms;
+    box-shadow: 0px 5px 5px rgb(0,0,0);   
+    transition: box-shadow 1200ms;
+
+}
