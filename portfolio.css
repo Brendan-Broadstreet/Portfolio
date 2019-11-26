@@ -8,33 +8,59 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+#jumbotron{
+  background: transparent;
+  margin-top: 2%;
+}
+#bio{
+  font-size: 1.2rem;
+}
+/* Flaired edges, by Tomas Theunissen */
 
+hr.style-seven {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
 #conExtra{
     margin-bottom: 10rem;
 }
 .card {
-    box-shadow: 0px 5px 5px rgb(0,0,0,);  
+    box-shadow: 25px 5px 5px 5px rgb(0,0,0,);  
 }
 
 
 #twoWide {
-    
-    margin-top: 3rem;
+    margin-top: 3.2rem;
+    font-size: 2rem;
 }
 #twoWide1 {
     margin: 2%;
     padding: 5%;
-    box-shadow: 1px 5px 5px rgb(0,0,0);  
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0);  
 }
 
 #twoWide2 {
     border-top: 1px black;
     margin: 2%;
     padding: 5%;
-    box-shadow: 1px 5px 5px rgb(0,0,0);  
+    box-shadow: 1px 1px 1px 1px rgb(0,0,0);  
 }
 p {
-    color: lavender;
+    color: black;
 }
 
 img {
@@ -66,4 +92,103 @@ img {
     box-shadow: 0px 5px 5px rgb(0,0,0);   
     transition: box-shadow 1200ms;
 
+}
+.conName {
+    width: 65%;
+    margin-left: 12%;
+}
+#textArea{
+  margin: 2%;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+  color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+  color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+  color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+  color: #aca49c;
+  font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+  color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: #e2dedb;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+
+.contact {
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 15%;
+}
+
+input {
+    width: 100%;
+}
+
+#button {
+  width: 100%;
 }
